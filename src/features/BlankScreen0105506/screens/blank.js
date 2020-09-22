@@ -35,24 +35,67 @@ export class _Blank extends React.Component {
             <View style={this.props.themedStyle.View_14}>
               <Image
                 resizeMode="cover"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/vincent-van-zalinge-44090-unsplash.jpg"
+                }}
                 style={this.props.themedStyle.Image_17}
               />
             </View>
             <View style={this.props.themedStyle.View_12}>
               <Image
                 resizeMode="cover"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/scott-johnson-522639-unsplash.jpg"
+                }}
                 style={this.props.themedStyle.Image_15}
               />
             </View>
             <View style={this.props.themedStyle.View_13}>
               <Image
                 resizeMode="cover"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/philip-marsh-422399-unsplash.jpg"
+                }}
+                style={this.props.themedStyle.Image_16}
+              />
+            </View>
+          </View>
+          <View style={this.props.themedStyle.View_18}>
+            <View style={this.props.themedStyle.View_14}>
+              <Image
+                resizeMode="cover"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/vincent-van-zalinge-44090-unsplash.jpg"
+                }}
+                style={this.props.themedStyle.Image_17}
+              />
+            </View>
+            <View style={this.props.themedStyle.View_12}>
+              <Image
+                resizeMode="cover"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/scott-johnson-522639-unsplash.jpg"
+                }}
+                style={this.props.themedStyle.Image_15}
+              />
+            </View>
+            <View style={this.props.themedStyle.View_13}>
+              <Image
+                resizeMode="cover"
+                source={{
+                  uri:
+                    "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/philip-marsh-422399-unsplash.jpg"
+                }}
                 style={this.props.themedStyle.Image_16}
               />
             </View>
           </View>
         </View>
-        <View style={this.props.themedStyle.View_7} />
       </View>
     </View>
   )
@@ -93,7 +136,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   View_10: {
     width: "100%",
-    height: "100%",
+    height: 20,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -103,6 +146,7 @@ export default Blank = withStyles(_Blank, theme => ({
     paddingTop: 0,
     paddingBottom: 0,
     overflow: "visible",
+    alignSelf: "flex-start",
     fontSize: 12,
     color: "#000000",
     backgroundColor: "#ffffff",
@@ -155,10 +199,10 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   View_5: {
     width: "100%",
-    height: 50,
+    height: "50%",
     marginLeft: 0,
     marginRight: 0,
-    marginTop: 0,
+    marginTop: -100,
     marginBottom: 0,
     paddingLeft: 0,
     paddingRight: 0,
@@ -187,14 +231,14 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   View_6: {
     width: "100%",
-    height: 20,
+    height: "100%",
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
     paddingLeft: 0,
     paddingRight: 0,
     paddingBottom: 0,
-    overflow: "visible",
+    overflow: "hidden",
     alignSelf: "flex-start",
     fontSize: 12,
     color: "#000000",
@@ -202,10 +246,10 @@ export default Blank = withStyles(_Blank, theme => ({
     fontStyle: "normal",
     fontWeight: "normal",
     flexDirection: "column",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    alignItems: "center",
-    alignContent: "center",
+    flexWrap: "nowrap",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+    alignContent: "flex-start",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
@@ -218,11 +262,11 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   View_11: {
     width: "100%",
-    height: "100%",
+    height: 100,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
-    marginBottom: 0,
+    marginBottom: 11,
     paddingLeft: 0,
     paddingRight: 0,
     paddingTop: 0,
@@ -234,10 +278,10 @@ export default Blank = withStyles(_Blank, theme => ({
     fontStyle: "normal",
     fontWeight: "normal",
     flexDirection: "row",
-    flexWrap: "wrap",
+    flexWrap: "nowrap",
     justifyContent: "space-evenly",
-    alignItems: "center",
-    alignContent: "stretch",
+    alignItems: "flex-start",
+    alignContent: "flex-start",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
@@ -249,10 +293,10 @@ export default Blank = withStyles(_Blank, theme => ({
     backgroundSize: "auto"
   },
   View_14: {
-    width: "33.333333333333336%",
-    height: "100%",
-    marginLeft: 0,
-    marginRight: 0,
+    width: 60,
+    height: 100,
+    marginLeft: 8,
+    marginRight: 4,
     marginTop: 0,
     marginBottom: 0,
     paddingLeft: 0,
@@ -260,6 +304,7 @@ export default Blank = withStyles(_Blank, theme => ({
     paddingTop: 0,
     paddingBottom: 0,
     overflow: "visible",
+    alignSelf: "flex-start",
     fontSize: 12,
     color: "#000000",
     backgroundColor: "#ffffff",
@@ -269,7 +314,7 @@ export default Blank = withStyles(_Blank, theme => ({
     flexWrap: "wrap",
     justifyContent: "flex-start",
     alignItems: "stretch",
-    alignContent: "stretch",
+    alignContent: "flex-start",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
@@ -282,7 +327,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_17: {
     width: "100%",
-    height: 200,
+    height: "100%",
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -291,7 +336,8 @@ export default Blank = withStyles(_Blank, theme => ({
     paddingRight: 0,
     paddingTop: 0,
     paddingBottom: 0,
-    overflow: "visible",
+    overflow: "hidden",
+    alignSelf: "flex-start",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
@@ -302,10 +348,10 @@ export default Blank = withStyles(_Blank, theme => ({
     borderRadius: 0
   },
   View_12: {
-    width: "50%",
-    height: "100%",
-    marginLeft: 0,
-    marginRight: 0,
+    width: 60,
+    height: 100,
+    marginLeft: 4,
+    marginRight: 4,
     marginTop: 0,
     marginBottom: 0,
     paddingLeft: 0,
@@ -344,7 +390,7 @@ export default Blank = withStyles(_Blank, theme => ({
     paddingRight: 0,
     paddingTop: 0,
     paddingBottom: 0,
-    overflow: "visible",
+    overflow: "hidden",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
@@ -355,10 +401,10 @@ export default Blank = withStyles(_Blank, theme => ({
     borderRadius: 0
   },
   View_13: {
-    width: "50%",
-    height: "100%",
-    marginLeft: 0,
-    marginRight: 0,
+    width: 60,
+    height: 100,
+    marginLeft: 4,
+    marginRight: 8,
     marginTop: 0,
     marginBottom: 0,
     paddingLeft: 0,
@@ -397,7 +443,7 @@ export default Blank = withStyles(_Blank, theme => ({
     paddingRight: 0,
     paddingTop: 0,
     paddingBottom: 0,
-    overflow: "visible",
+    overflow: "hidden",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
@@ -407,11 +453,98 @@ export default Blank = withStyles(_Blank, theme => ({
     borderBottomWidth: 0,
     borderRadius: 0
   },
-  View_7: {
+  View_18: {
     width: "100%",
-    height: "50%",
+    height: "100%",
     marginLeft: 0,
     marginRight: 0,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "visible",
+    fontSize: 12,
+    color: "#000000",
+    backgroundColor: "#ffffff",
+    fontStyle: "normal",
+    fontWeight: "normal",
+    flexDirection: "row",
+    flexWrap: "nowrap",
+    justifyContent: "space-evenly",
+    alignItems: "flex-start",
+    alignContent: "flex-start",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0,
+    backgroundSize: "auto"
+  },
+  View_14: {
+    width: 60,
+    height: 100,
+    marginLeft: 8,
+    marginRight: 4,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "visible",
+    alignSelf: "flex-start",
+    fontSize: 12,
+    color: "#000000",
+    backgroundColor: "#ffffff",
+    fontStyle: "normal",
+    fontWeight: "normal",
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    alignItems: "stretch",
+    alignContent: "flex-start",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0,
+    backgroundSize: "auto"
+  },
+  Image_17: {
+    width: "100%",
+    height: "100%",
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "hidden",
+    alignSelf: "flex-start",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0
+  },
+  View_12: {
+    width: 60,
+    height: 100,
+    marginLeft: 4,
+    marginRight: 4,
     marginTop: 0,
     marginBottom: 0,
     paddingLeft: 0,
@@ -438,5 +571,79 @@ export default Blank = withStyles(_Blank, theme => ({
     borderBottomWidth: 0,
     borderRadius: 0,
     backgroundSize: "auto"
+  },
+  Image_15: {
+    width: "100%",
+    height: 200,
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "hidden",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0
+  },
+  View_13: {
+    width: 60,
+    height: 100,
+    marginLeft: 4,
+    marginRight: 8,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "visible",
+    fontSize: 12,
+    color: "#000000",
+    backgroundColor: "#ffffff",
+    fontStyle: "normal",
+    fontWeight: "normal",
+    flexDirection: "column",
+    flexWrap: "wrap",
+    justifyContent: "flex-start",
+    alignItems: "stretch",
+    alignContent: "stretch",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0,
+    backgroundSize: "auto"
+  },
+  Image_16: {
+    width: "100%",
+    height: 200,
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "hidden",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0
   }
 }))
