@@ -28,6 +28,7 @@ export class _Blank extends React.Component {
     <View style={this.props.themedStyle.View_1}>
       <View style={this.props.themedStyle.View_10}>
         <Text style={this.props.themedStyle.Text_9}>lens</Text>
+        <Text style={this.props.themedStyle.Text_44}>Birds Near Me</Text>
       </View>
       <View style={this.props.themedStyle.View_5}>
         <View style={this.props.themedStyle.View_6}>
@@ -204,7 +205,6 @@ export default Blank = withStyles(_Blank, theme => ({
     paddingTop: 0,
     paddingBottom: 0,
     overflow: "hidden",
-    alignSelf: "flex-start",
     fontSize: 12,
     color: "#000000",
     backgroundColor: "#ffffff",
@@ -229,25 +229,46 @@ export default Blank = withStyles(_Blank, theme => ({
     marginLeft: 0,
     marginRight: 0,
     marginTop: 15,
-    marginBottom: 15,
+    marginBottom: 12,
     paddingLeft: 5,
     paddingRight: 5,
     paddingTop: 5,
-    paddingBottom: 5,
+    paddingBottom: 7,
     overflow: "hidden",
     alignSelf: "center",
-    fontSize: 17,
+    fontSize: 19,
     color: "#2c038c",
     backgroundColor: "#ffffff",
     fontFamily: "OpenSans-Bold",
-    borderColor: "#000000",
+    borderColor: "#2c038c",
     borderStyle: "solid",
-    borderWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderTopWidth: 0,
-    borderBottomWidth: 0,
-    borderRadius: 0,
+    borderWidth: 1,
+    borderRadius: 2,
+    textAlign: "left",
+    textAlignVertical: "center",
+    textDecorationLine: "none",
+    textTransform: "none",
+    lineHeight: 12,
+    letterSpacing: 0
+  },
+  Text_44: {
+    marginLeft: 10,
+    marginRight: 0,
+    marginTop: 16,
+    marginBottom: 5,
+    paddingLeft: 6,
+    paddingRight: 6,
+    paddingTop: 3,
+    paddingBottom: 3,
+    overflow: "visible",
+    alignSelf: "center",
+    fontSize: 15,
+    color: "#2c038c",
+    backgroundColor: "#ffffff",
+    fontFamily: "Montserrat-Bold",
+    borderColor: "#2c038c",
+    borderStyle: "solid",
+    borderRadius: 5,
     textAlign: "left",
     textAlignVertical: "center",
     textDecorationLine: "none",
@@ -260,7 +281,7 @@ export default Blank = withStyles(_Blank, theme => ({
     height: "50%",
     marginLeft: 0,
     marginRight: 0,
-    marginTop: -135,
+    marginTop: -80,
     marginBottom: 0,
     paddingLeft: 0,
     paddingRight: 0,
@@ -352,7 +373,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   View_14: {
     width: 60,
-    height: 100,
+    height: 105,
     marginLeft: 8,
     marginRight: 4,
     marginTop: 0,
@@ -406,7 +427,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   View_12: {
     width: 60,
-    height: 100,
+    height: 105,
     marginLeft: 4,
     marginRight: 4,
     marginTop: 0,
@@ -438,7 +459,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_15: {
     width: "100%",
-    height: 200,
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -459,7 +480,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   View_13: {
     width: 60,
-    height: 100,
+    height: 105,
     marginLeft: 4,
     marginRight: 8,
     marginTop: 0,
@@ -491,7 +512,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_16: {
     width: "100%",
-    height: 200,
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -576,7 +597,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_17: {
     width: "100%",
-    height: "100%",
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -586,7 +607,6 @@ export default Blank = withStyles(_Blank, theme => ({
     paddingTop: 0,
     paddingBottom: 0,
     overflow: "hidden",
-    alignSelf: "flex-start",
     borderColor: "#000000",
     borderStyle: "solid",
     borderWidth: 0,
@@ -630,7 +650,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_15: {
     width: "100%",
-    height: 200,
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -683,7 +703,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_16: {
     width: "100%",
-    height: 200,
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -768,7 +788,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_17: {
     width: "100%",
-    height: "100%",
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -822,7 +842,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_15: {
     width: "100%",
-    height: 200,
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -875,7 +895,7 @@ export default Blank = withStyles(_Blank, theme => ({
   },
   Image_16: {
     width: "100%",
-    height: 200,
+    height: 105,
     marginLeft: 0,
     marginRight: 0,
     marginTop: 0,
@@ -986,11 +1006,6 @@ export default Blank = withStyles(_Blank, theme => ({
     alignSelf: "center",
     borderColor: "#000000",
     borderStyle: "solid",
-    borderWidth: 0,
-    borderLeftWidth: 0,
-    borderRightWidth: 0,
-    borderTopWidth: 0,
-    borderBottomWidth: 0,
-    borderRadius: 0
+    borderRadius: 1
   }
 }))
