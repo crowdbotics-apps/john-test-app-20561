@@ -27,7 +27,9 @@ export class _Blank extends React.Component {
   render = () => (
     <View style={this.props.themedStyle.View_1}>
       <View style={this.props.themedStyle.View_10}>
-        <Text style={this.props.themedStyle.Text_9}>lens</Text>
+        <View style={this.props.themedStyle.View_45}>
+          <Text style={this.props.themedStyle.Text_9}>lens</Text>
+        </View>
         <Text style={this.props.themedStyle.Text_44}>Birds Near Me</Text>
       </View>
       <View style={this.props.themedStyle.View_5}>
@@ -225,6 +227,37 @@ export default Blank = withStyles(_Blank, theme => ({
     borderRadius: 0,
     backgroundSize: "auto"
   },
+  View_45: {
+    width: "100%",
+    height: 10,
+    marginLeft: 0,
+    marginRight: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "visible",
+    fontSize: 12,
+    color: "#000000",
+    backgroundColor: "#f0f0f0",
+    fontStyle: "normal",
+    fontWeight: "normal",
+    flexDirection: "column",
+    flexWrap: "nowrap",
+    justifyContent: "flex-start",
+    alignItems: "stretch",
+    alignContent: "flex-start",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0,
+    backgroundSize: "auto"
+  },
   Text_9: {
     marginLeft: 0,
     marginRight: 0,
@@ -255,7 +288,7 @@ export default Blank = withStyles(_Blank, theme => ({
     marginLeft: 10,
     marginRight: 0,
     marginTop: 16,
-    marginBottom: 5,
+    marginBottom: 97,
     paddingLeft: 6,
     paddingRight: 6,
     paddingTop: 3,
